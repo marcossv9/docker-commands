@@ -41,9 +41,13 @@ docker run -d --name <nombre_contenedor> -p <puerto_host>:<puerto_docker> -v <ho
 ```
 
 -d: iniciar en docker en modo demonio
+
 --name: nombre del contenedor
+
 --restart=always: para reiniciarlo automáticamente si falla
+
 -v: mapear volúmenes del docker con los del host
+
 -p: mapear puertos
 
 ## 1.4 LOGS
